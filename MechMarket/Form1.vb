@@ -2,7 +2,7 @@
 Public Class Form1
     Public keeb1 As Integer = 6500, keeb2 As Integer = 27000, keeb3 As Integer = 2105
     Public kit1 As Integer = 6238, kit2 As Integer = 2300, kit3 As Integer = 8527
-
+    ' hola
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'setting parent para transparent sa picboxtitle
