@@ -64,8 +64,9 @@ Partial Class Form1
         Panel1.Dock = DockStyle.Fill
         Panel1.ForeColor = Color.White
         Panel1.Location = New Point(0, 0)
+        Panel1.Margin = New Padding(4)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(680, 837)
+        Panel1.Size = New Size(850, 1046)
         Panel1.TabIndex = 0
         ' 
         ' labelcart
@@ -73,9 +74,10 @@ Partial Class Form1
         labelcart.AutoSize = True
         labelcart.BackColor = Color.Transparent
         labelcart.Font = New Font("Montserrat Medium", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelcart.Location = New Point(559, 251)
+        labelcart.Location = New Point(699, 314)
+        labelcart.Margin = New Padding(4, 0, 4, 0)
         labelcart.Name = "labelcart"
-        labelcart.Size = New Size(86, 41)
+        labelcart.Size = New Size(105, 50)
         labelcart.TabIndex = 13
         labelcart.Text = "Cart"
         ' 
@@ -84,9 +86,10 @@ Partial Class Form1
         labelcap.AutoSize = True
         labelcap.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelcap.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelcap.Location = New Point(491, 630)
+        labelcap.Location = New Point(614, 788)
+        labelcap.Margin = New Padding(4, 0, 4, 0)
         labelcap.Name = "labelcap"
-        labelcap.Size = New Size(142, 39)
+        labelcap.Size = New Size(167, 46)
         labelcap.TabIndex = 12
         labelcap.Text = "Keycaps"
         ' 
@@ -95,9 +98,10 @@ Partial Class Form1
         labelswitch.AutoSize = True
         labelswitch.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelswitch.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelswitch.Location = New Point(147, 630)
+        labelswitch.Location = New Point(184, 788)
+        labelswitch.Margin = New Padding(4, 0, 4, 0)
         labelswitch.Name = "labelswitch"
-        labelswitch.Size = New Size(152, 39)
+        labelswitch.Size = New Size(178, 46)
         labelswitch.TabIndex = 11
         labelswitch.Text = "Switches"
         ' 
@@ -106,9 +110,10 @@ Partial Class Form1
         labelkit.AutoSize = True
         labelkit.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelkit.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelkit.Location = New Point(569, 395)
+        labelkit.Location = New Point(711, 494)
+        labelkit.Margin = New Padding(4, 0, 4, 0)
         labelkit.Name = "labelkit"
-        labelkit.Size = New Size(60, 39)
+        labelkit.Size = New Size(70, 46)
         labelkit.TabIndex = 10
         labelkit.Text = "Kit"
         ' 
@@ -117,9 +122,10 @@ Partial Class Form1
         labelpb.AutoSize = True
         labelpb.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelpb.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelpb.Location = New Point(161, 395)
+        labelpb.Location = New Point(201, 494)
+        labelpb.Margin = New Padding(4, 0, 4, 0)
         labelpb.Name = "labelpb"
-        labelpb.Size = New Size(138, 39)
+        labelpb.Size = New Size(162, 46)
         labelpb.TabIndex = 9
         labelpb.Text = "Prebuilt"
         ' 
@@ -127,9 +133,10 @@ Partial Class Form1
         ' 
         piccap.BackgroundImage = CType(resources.GetObject("piccap.BackgroundImage"), Image)
         piccap.Image = CType(resources.GetObject("piccap.Image"), Image)
-        piccap.Location = New Point(372, 617)
+        piccap.Location = New Point(465, 771)
+        piccap.Margin = New Padding(4)
         piccap.Name = "piccap"
-        piccap.Size = New Size(273, 189)
+        piccap.Size = New Size(341, 236)
         piccap.SizeMode = PictureBoxSizeMode.CenterImage
         piccap.TabIndex = 8
         piccap.TabStop = False
@@ -138,9 +145,10 @@ Partial Class Form1
         ' 
         picswitch.BackgroundImage = CType(resources.GetObject("picswitch.BackgroundImage"), Image)
         picswitch.Image = CType(resources.GetObject("picswitch.Image"), Image)
-        picswitch.Location = New Point(38, 617)
+        picswitch.Location = New Point(48, 771)
+        picswitch.Margin = New Padding(4)
         picswitch.Name = "picswitch"
-        picswitch.Size = New Size(273, 189)
+        picswitch.Size = New Size(341, 236)
         picswitch.SizeMode = PictureBoxSizeMode.CenterImage
         picswitch.TabIndex = 7
         picswitch.TabStop = False
@@ -149,9 +157,10 @@ Partial Class Form1
         ' 
         pickit.BackgroundImage = CType(resources.GetObject("pickit.BackgroundImage"), Image)
         pickit.Image = CType(resources.GetObject("pickit.Image"), Image)
-        pickit.Location = New Point(372, 383)
+        pickit.Location = New Point(465, 479)
+        pickit.Margin = New Padding(4)
         pickit.Name = "pickit"
-        pickit.Size = New Size(273, 189)
+        pickit.Size = New Size(341, 236)
         pickit.SizeMode = PictureBoxSizeMode.StretchImage
         pickit.TabIndex = 6
         pickit.TabStop = False
@@ -159,9 +168,10 @@ Partial Class Form1
         ' picpb
         ' 
         picpb.BackgroundImage = CType(resources.GetObject("picpb.BackgroundImage"), Image)
-        picpb.Location = New Point(38, 383)
+        picpb.Location = New Point(48, 479)
+        picpb.Margin = New Padding(4)
         picpb.Name = "picpb"
-        picpb.Size = New Size(273, 189)
+        picpb.Size = New Size(341, 236)
         picpb.SizeMode = PictureBoxSizeMode.CenterImage
         picpb.TabIndex = 5
         picpb.TabStop = False
@@ -171,9 +181,10 @@ Partial Class Form1
         Label1.AutoSize = True
         Label1.Font = New Font("Montserrat Medium", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(38, 326)
+        Label1.Location = New Point(48, 408)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(139, 41)
+        Label1.Size = New Size(168, 50)
         Label1.TabIndex = 4
         Label1.Text = "Explore"
         ' 
@@ -183,9 +194,10 @@ Partial Class Form1
         label01.BackColor = Color.Transparent
         label01.Font = New Font("Montserrat", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         label01.ForeColor = Color.White
-        label01.Location = New Point(24, 142)
+        label01.Location = New Point(30, 178)
+        label01.Margin = New Padding(4, 0, 4, 0)
         label01.Name = "label01"
-        label01.Size = New Size(580, 32)
+        label01.Size = New Size(707, 39)
         label01.TabIndex = 3
         label01.Text = "The number 1 place for mechanical keyboard kits"
         ' 
@@ -196,9 +208,10 @@ Partial Class Form1
         labeltitle.FlatStyle = FlatStyle.Flat
         labeltitle.Font = New Font("Montserrat", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         labeltitle.ForeColor = Color.White
-        labeltitle.Location = New Point(3, 31)
+        labeltitle.Location = New Point(4, 39)
+        labeltitle.Margin = New Padding(4, 0, 4, 0)
         labeltitle.Name = "labeltitle"
-        labeltitle.Size = New Size(570, 111)
+        labeltitle.Size = New Size(687, 132)
         labeltitle.TabIndex = 2
         labeltitle.Text = "MechMarket"
         ' 
@@ -206,20 +219,26 @@ Partial Class Form1
         ' 
         picboxtitle.Image = CType(resources.GetObject("picboxtitle.Image"), Image)
         picboxtitle.Location = New Point(0, 0)
+        picboxtitle.Margin = New Padding(4)
         picboxtitle.Name = "picboxtitle"
-        picboxtitle.Size = New Size(679, 311)
+        picboxtitle.Size = New Size(849, 389)
         picboxtitle.SizeMode = PictureBoxSizeMode.CenterImage
         picboxtitle.TabIndex = 0
         picboxtitle.TabStop = False
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FloralWhite
-        ClientSize = New Size(680, 837)
+        ClientSize = New Size(850, 1046)
         Controls.Add(Panel1)
+        Margin = New Padding(4)
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "Form1"
+        ShowIcon = False
+        StartPosition = FormStartPosition.CenterScreen
         Text = "The MechMarket"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()

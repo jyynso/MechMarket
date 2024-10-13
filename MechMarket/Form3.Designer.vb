@@ -52,9 +52,10 @@ Partial Class Form3
         labelkit.FlatStyle = FlatStyle.Flat
         labelkit.Font = New Font("Montserrat", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         labelkit.ForeColor = Color.White
-        labelkit.Location = New Point(12, 28)
+        labelkit.Location = New Point(15, 35)
+        labelkit.Margin = New Padding(4, 0, 4, 0)
         labelkit.Name = "labelkit"
-        labelkit.Size = New Size(471, 83)
+        labelkit.Size = New Size(564, 99)
         labelkit.TabIndex = 5
         labelkit.Text = "Keyboard Kits"
         ' 
@@ -62,8 +63,9 @@ Partial Class Form3
         ' 
         pickit.Image = CType(resources.GetObject("pickit.Image"), Image)
         pickit.Location = New Point(1, 0)
+        pickit.Margin = New Padding(4)
         pickit.Name = "pickit"
-        pickit.Size = New Size(678, 167)
+        pickit.Size = New Size(848, 209)
         pickit.SizeMode = PictureBoxSizeMode.CenterImage
         pickit.TabIndex = 4
         pickit.TabStop = False
@@ -75,9 +77,10 @@ Partial Class Form3
         btncart3.FlatStyle = FlatStyle.Flat
         btncart3.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btncart3.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        btncart3.Location = New Point(452, 752)
+        btncart3.Location = New Point(565, 940)
+        btncart3.Margin = New Padding(4)
         btncart3.Name = "btncart3"
-        btncart3.Size = New Size(150, 42)
+        btncart3.Size = New Size(188, 52)
         btncart3.TabIndex = 33
         btncart3.Text = "Add to cart"
         btncart3.UseVisualStyleBackColor = False
@@ -89,9 +92,10 @@ Partial Class Form3
         btncart2.FlatStyle = FlatStyle.Flat
         btncart2.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btncart2.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        btncart2.Location = New Point(452, 545)
+        btncart2.Location = New Point(565, 681)
+        btncart2.Margin = New Padding(4)
         btncart2.Name = "btncart2"
-        btncart2.Size = New Size(150, 42)
+        btncart2.Size = New Size(188, 52)
         btncart2.TabIndex = 32
         btncart2.Text = "Add to cart"
         btncart2.UseVisualStyleBackColor = False
@@ -103,9 +107,10 @@ Partial Class Form3
         btncart1.FlatStyle = FlatStyle.Flat
         btncart1.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btncart1.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        btncart1.Location = New Point(452, 332)
+        btncart1.Location = New Point(565, 415)
+        btncart1.Margin = New Padding(4)
         btncart1.Name = "btncart1"
-        btncart1.Size = New Size(150, 42)
+        btncart1.Size = New Size(188, 52)
         btncart1.TabIndex = 31
         btncart1.Text = "Add to cart"
         btncart1.UseVisualStyleBackColor = False
@@ -115,9 +120,10 @@ Partial Class Form3
         Label6.AutoSize = True
         Label6.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label6.Location = New Point(378, 693)
+        Label6.Location = New Point(472, 866)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(77, 32)
+        Label6.Size = New Size(93, 39)
         Label6.TabIndex = 30
         Label6.Text = "8,527"
         ' 
@@ -126,9 +132,10 @@ Partial Class Form3
         Label5.AutoSize = True
         Label5.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label5.Location = New Point(378, 484)
+        Label5.Location = New Point(472, 605)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(100, 32)
+        Label5.Size = New Size(120, 39)
         Label5.TabIndex = 29
         Label5.Text = "₱2,300"
         ' 
@@ -137,9 +144,10 @@ Partial Class Form3
         Label4.AutoSize = True
         Label4.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label4.Location = New Point(378, 270)
+        Label4.Location = New Point(472, 338)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(98, 32)
+        Label4.Size = New Size(118, 39)
         Label4.TabIndex = 28
         Label4.Text = "₱6,238"
         ' 
@@ -149,9 +157,10 @@ Partial Class Form3
         Label3.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         Label3.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.White
-        Label3.Location = New Point(378, 633)
+        Label3.Location = New Point(472, 791)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(201, 39)
+        Label3.Size = New Size(235, 46)
         Label3.TabIndex = 27
         Label3.Text = "Bakeneko65"
         ' 
@@ -161,9 +170,10 @@ Partial Class Form3
         Label2.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         Label2.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(378, 426)
+        Label2.Location = New Point(472, 532)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(124, 39)
+        Label2.Size = New Size(145, 46)
         Label2.TabIndex = 26
         Label2.Text = "GMK67"
         ' 
@@ -173,9 +183,10 @@ Partial Class Form3
         Label1.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         Label1.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(378, 426)
+        Label1.Location = New Point(472, 532)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(0, 39)
+        Label1.Size = New Size(0, 46)
         Label1.TabIndex = 25
         ' 
         ' Label7
@@ -184,18 +195,20 @@ Partial Class Form3
         Label7.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         Label7.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.White
-        Label7.Location = New Point(378, 213)
+        Label7.Location = New Point(472, 266)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(182, 39)
+        Label7.Size = New Size(213, 46)
         Label7.TabIndex = 24
         Label7.Text = "KBd67 Lite"
         ' 
         ' PictureBox3
         ' 
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(42, 633)
+        PictureBox3.Location = New Point(52, 791)
+        PictureBox3.Margin = New Padding(4)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(300, 161)
+        PictureBox3.Size = New Size(375, 201)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox3.TabIndex = 23
         PictureBox3.TabStop = False
@@ -203,18 +216,20 @@ Partial Class Form3
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(42, 426)
+        PictureBox2.Location = New Point(52, 532)
+        PictureBox2.Margin = New Padding(4)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(300, 161)
+        PictureBox2.Size = New Size(375, 201)
         PictureBox2.TabIndex = 22
         PictureBox2.TabStop = False
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(42, 213)
+        PictureBox1.Location = New Point(52, 266)
+        PictureBox1.Margin = New Padding(4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(300, 161)
+        PictureBox1.Size = New Size(375, 201)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 21
         PictureBox1.TabStop = False
@@ -226,19 +241,20 @@ Partial Class Form3
         Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Montserrat Medium", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.White
-        Button1.Location = New Point(574, 93)
+        Button1.Location = New Point(718, 116)
+        Button1.Margin = New Padding(4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(94, 63)
+        Button1.Size = New Size(118, 79)
         Button1.TabIndex = 34
         Button1.Text = "Back"
         Button1.UseVisualStyleBackColor = False
         ' 
         ' Form3
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FloralWhite
-        ClientSize = New Size(680, 837)
+        ClientSize = New Size(850, 1046)
         Controls.Add(Button1)
         Controls.Add(btncart3)
         Controls.Add(btncart2)
@@ -255,7 +271,12 @@ Partial Class Form3
         Controls.Add(PictureBox1)
         Controls.Add(labelkit)
         Controls.Add(pickit)
+        Margin = New Padding(4)
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "Form3"
+        ShowIcon = False
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form3"
         CType(pickit, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()

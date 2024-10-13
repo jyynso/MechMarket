@@ -23,201 +23,69 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
-        picpb = New PictureBox()
-        labelpb = New Label()
-        PictureBox1 = New PictureBox()
-        PictureBox2 = New PictureBox()
-        PictureBox3 = New PictureBox()
-        labelkit = New Label()
-        Label1 = New Label()
-        Label2 = New Label()
-        Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
-        Label6 = New Label()
-        btncart1 = New Button()
-        btncart2 = New Button()
-        btncart3 = New Button()
+        Panel1 = New Panel()
+        Labelkb = New Label()
         Button1 = New Button()
-        Label7 = New Label()
-        CType(picpb, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        btncart3 = New Button()
+        btncart2 = New Button()
+        btncart1 = New Button()
+        Label6 = New Label()
+        Label5 = New Label()
+        Label4 = New Label()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
+        labelkit = New Label()
+        PictureBox3 = New PictureBox()
+        PictureBox2 = New PictureBox()
+        PictureBox1 = New PictureBox()
+        labelpb = New Label()
+        picpb = New PictureBox()
+        Panel1.SuspendLayout()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picpb, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' picpb
+        ' Panel1
         ' 
-        picpb.Image = CType(resources.GetObject("picpb.Image"), Image)
-        picpb.Location = New Point(1, -1)
-        picpb.Name = "picpb"
-        picpb.Size = New Size(678, 167)
-        picpb.SizeMode = PictureBoxSizeMode.CenterImage
-        picpb.TabIndex = 0
-        picpb.TabStop = False
+        Panel1.Controls.Add(Labelkb)
+        Panel1.Controls.Add(Button1)
+        Panel1.Controls.Add(btncart3)
+        Panel1.Controls.Add(btncart2)
+        Panel1.Controls.Add(btncart1)
+        Panel1.Controls.Add(Label6)
+        Panel1.Controls.Add(Label5)
+        Panel1.Controls.Add(Label4)
+        Panel1.Controls.Add(Label3)
+        Panel1.Controls.Add(Label2)
+        Panel1.Controls.Add(Label1)
+        Panel1.Controls.Add(labelkit)
+        Panel1.Controls.Add(PictureBox3)
+        Panel1.Controls.Add(PictureBox2)
+        Panel1.Controls.Add(PictureBox1)
+        Panel1.Controls.Add(labelpb)
+        Panel1.Controls.Add(picpb)
+        Panel1.Dock = DockStyle.Fill
+        Panel1.Location = New Point(0, 0)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(850, 1046)
+        Panel1.TabIndex = 0
         ' 
-        ' labelpb
+        ' Labelkb
         ' 
-        labelpb.AutoSize = True
-        labelpb.BackColor = Color.Transparent
-        labelpb.FlatStyle = FlatStyle.Flat
-        labelpb.Font = New Font("Montserrat", 28.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelpb.ForeColor = Color.White
-        labelpb.Location = New Point(12, 9)
-        labelpb.Name = "labelpb"
-        labelpb.Size = New Size(239, 65)
-        labelpb.TabIndex = 3
-        labelpb.Text = "Prebuilt "
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(47, 201)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(300, 161)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 4
-        PictureBox1.TabStop = False
-        ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(47, 414)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(300, 161)
-        PictureBox2.TabIndex = 5
-        PictureBox2.TabStop = False
-        ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(47, 621)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(300, 161)
-        PictureBox3.TabIndex = 6
-        PictureBox3.TabStop = False
-        ' 
-        ' labelkit
-        ' 
-        labelkit.AutoSize = True
-        labelkit.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        labelkit.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelkit.ForeColor = Color.White
-        labelkit.Location = New Point(383, 201)
-        labelkit.Name = "labelkit"
-        labelkit.Size = New Size(224, 39)
-        labelkit.TabIndex = 11
-        labelkit.Text = "WOB Rainy75"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label1.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.ForeColor = Color.White
-        Label1.Location = New Point(383, 414)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(0, 39)
-        Label1.TabIndex = 12
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label2.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.ForeColor = Color.White
-        Label2.Location = New Point(383, 414)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(239, 39)
-        Label2.TabIndex = 13
-        Label2.Text = "Kibou Suisei65"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label3.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.ForeColor = Color.White
-        Label3.Location = New Point(383, 621)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(124, 39)
-        Label3.TabIndex = 14
-        Label3.Text = "RK R65"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label4.Location = New Point(383, 258)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(101, 32)
-        Label4.TabIndex = 15
-        Label4.Text = "₱6,500"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label5.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label5.Location = New Point(383, 472)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(115, 32)
-        Label5.TabIndex = 16
-        Label5.Text = "₱27,000"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label6.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label6.Location = New Point(383, 681)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(93, 32)
-        Label6.TabIndex = 17
-        Label6.Text = "₱2,105"
-        ' 
-        ' btncart1
-        ' 
-        btncart1.BackColor = Color.FromArgb(CByte(155), CByte(123), CByte(120))
-        btncart1.FlatAppearance.BorderSize = 0
-        btncart1.FlatStyle = FlatStyle.Flat
-        btncart1.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btncart1.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        btncart1.Location = New Point(457, 320)
-        btncart1.Name = "btncart1"
-        btncart1.Size = New Size(150, 42)
-        btncart1.TabIndex = 18
-        btncart1.Text = "Add to cart"
-        btncart1.UseVisualStyleBackColor = False
-        ' 
-        ' btncart2
-        ' 
-        btncart2.BackColor = Color.FromArgb(CByte(155), CByte(123), CByte(120))
-        btncart2.FlatAppearance.BorderSize = 0
-        btncart2.FlatStyle = FlatStyle.Flat
-        btncart2.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btncart2.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        btncart2.Location = New Point(457, 533)
-        btncart2.Name = "btncart2"
-        btncart2.Size = New Size(150, 42)
-        btncart2.TabIndex = 19
-        btncart2.Text = "Add to cart"
-        btncart2.UseVisualStyleBackColor = False
-        ' 
-        ' btncart3
-        ' 
-        btncart3.BackColor = Color.FromArgb(CByte(155), CByte(123), CByte(120))
-        btncart3.FlatAppearance.BorderSize = 0
-        btncart3.FlatStyle = FlatStyle.Flat
-        btncart3.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btncart3.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        btncart3.Location = New Point(457, 740)
-        btncart3.Name = "btncart3"
-        btncart3.Size = New Size(150, 42)
-        btncart3.TabIndex = 20
-        btncart3.Text = "Add to cart"
-        btncart3.UseVisualStyleBackColor = False
+        Labelkb.AutoSize = True
+        Labelkb.BackColor = Color.Transparent
+        Labelkb.FlatStyle = FlatStyle.Flat
+        Labelkb.Font = New Font("Montserrat", 28.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Labelkb.ForeColor = Color.White
+        Labelkb.Location = New Point(14, 93)
+        Labelkb.Margin = New Padding(4, 0, 4, 0)
+        Labelkb.Name = "Labelkb"
+        Labelkb.Size = New Size(346, 78)
+        Labelkb.TabIndex = 53
+        Labelkb.Text = "Keyboards"
         ' 
         ' Button1
         ' 
@@ -226,74 +94,241 @@ Partial Class Form2
         Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Montserrat Medium", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.White
-        Button1.Location = New Point(574, 86)
+        Button1.Location = New Point(717, 109)
+        Button1.Margin = New Padding(4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(94, 63)
-        Button1.TabIndex = 35
+        Button1.Size = New Size(118, 79)
+        Button1.TabIndex = 52
         Button1.Text = "Back"
         Button1.UseVisualStyleBackColor = False
         ' 
-        ' Label7
+        ' btncart3
         ' 
-        Label7.AutoSize = True
-        Label7.BackColor = Color.Transparent
-        Label7.FlatStyle = FlatStyle.Flat
-        Label7.Font = New Font("Montserrat", 28.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label7.ForeColor = Color.White
-        Label7.Location = New Point(12, 74)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(290, 65)
-        Label7.TabIndex = 36
-        Label7.Text = "Keyboards"
+        btncart3.BackColor = Color.FromArgb(CByte(155), CByte(123), CByte(120))
+        btncart3.FlatAppearance.BorderSize = 0
+        btncart3.FlatStyle = FlatStyle.Flat
+        btncart3.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btncart3.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        btncart3.Location = New Point(570, 926)
+        btncart3.Margin = New Padding(4)
+        btncart3.Name = "btncart3"
+        btncart3.Size = New Size(188, 52)
+        btncart3.TabIndex = 51
+        btncart3.Text = "Add to cart"
+        btncart3.UseVisualStyleBackColor = False
+        ' 
+        ' btncart2
+        ' 
+        btncart2.BackColor = Color.FromArgb(CByte(155), CByte(123), CByte(120))
+        btncart2.FlatAppearance.BorderSize = 0
+        btncart2.FlatStyle = FlatStyle.Flat
+        btncart2.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btncart2.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        btncart2.Location = New Point(570, 667)
+        btncart2.Margin = New Padding(4)
+        btncart2.Name = "btncart2"
+        btncart2.Size = New Size(188, 52)
+        btncart2.TabIndex = 50
+        btncart2.Text = "Add to cart"
+        btncart2.UseVisualStyleBackColor = False
+        ' 
+        ' btncart1
+        ' 
+        btncart1.BackColor = Color.FromArgb(CByte(155), CByte(123), CByte(120))
+        btncart1.FlatAppearance.BorderSize = 0
+        btncart1.FlatStyle = FlatStyle.Flat
+        btncart1.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btncart1.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        btncart1.Location = New Point(570, 401)
+        btncart1.Margin = New Padding(4)
+        btncart1.Name = "btncart1"
+        btncart1.Size = New Size(188, 52)
+        btncart1.TabIndex = 49
+        btncart1.Text = "Add to cart"
+        btncart1.UseVisualStyleBackColor = False
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Label6.Location = New Point(478, 852)
+        Label6.Margin = New Padding(4, 0, 4, 0)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(112, 39)
+        Label6.TabIndex = 48
+        Label6.Text = "₱2,105"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Label5.Location = New Point(478, 591)
+        Label5.Margin = New Padding(4, 0, 4, 0)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(138, 39)
+        Label5.TabIndex = 47
+        Label5.Text = "₱27,000"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Label4.Location = New Point(478, 323)
+        Label4.Margin = New Padding(4, 0, 4, 0)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(121, 39)
+        Label4.TabIndex = 46
+        Label4.Text = "₱6,500"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Label3.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = Color.White
+        Label3.Location = New Point(478, 777)
+        Label3.Margin = New Padding(4, 0, 4, 0)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(146, 46)
+        Label3.TabIndex = 45
+        Label3.Text = "RK R65"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Label2.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.ForeColor = Color.White
+        Label2.Location = New Point(478, 519)
+        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(278, 46)
+        Label2.TabIndex = 44
+        Label2.Text = "Kibou Suisei65"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Label1.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.ForeColor = Color.White
+        Label1.Location = New Point(478, 519)
+        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(0, 46)
+        Label1.TabIndex = 43
+        ' 
+        ' labelkit
+        ' 
+        labelkit.AutoSize = True
+        labelkit.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        labelkit.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        labelkit.ForeColor = Color.White
+        labelkit.Location = New Point(478, 252)
+        labelkit.Margin = New Padding(4, 0, 4, 0)
+        labelkit.Name = "labelkit"
+        labelkit.Size = New Size(260, 46)
+        labelkit.TabIndex = 42
+        labelkit.Text = "WOB Rainy75"
+        ' 
+        ' PictureBox3
+        ' 
+        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
+        PictureBox3.Location = New Point(58, 777)
+        PictureBox3.Margin = New Padding(4)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(375, 201)
+        PictureBox3.TabIndex = 41
+        PictureBox3.TabStop = False
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(58, 519)
+        PictureBox2.Margin = New Padding(4)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(375, 201)
+        PictureBox2.TabIndex = 40
+        PictureBox2.TabStop = False
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+        PictureBox1.Location = New Point(58, 252)
+        PictureBox1.Margin = New Padding(4)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(375, 201)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 39
+        PictureBox1.TabStop = False
+        ' 
+        ' labelpb
+        ' 
+        labelpb.AutoSize = True
+        labelpb.BackColor = Color.Transparent
+        labelpb.FlatStyle = FlatStyle.Flat
+        labelpb.Font = New Font("Montserrat", 28.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        labelpb.ForeColor = Color.White
+        labelpb.Location = New Point(14, 12)
+        labelpb.Margin = New Padding(4, 0, 4, 0)
+        labelpb.Name = "labelpb"
+        labelpb.Size = New Size(289, 78)
+        labelpb.TabIndex = 38
+        labelpb.Text = "Prebuilt "
+        ' 
+        ' picpb
+        ' 
+        picpb.Image = CType(resources.GetObject("picpb.Image"), Image)
+        picpb.Location = New Point(0, 0)
+        picpb.Margin = New Padding(4)
+        picpb.Name = "picpb"
+        picpb.Size = New Size(848, 209)
+        picpb.SizeMode = PictureBoxSizeMode.CenterImage
+        picpb.TabIndex = 37
+        picpb.TabStop = False
         ' 
         ' Form2
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FloralWhite
-        ClientSize = New Size(680, 837)
-        Controls.Add(Label7)
-        Controls.Add(Button1)
-        Controls.Add(btncart3)
-        Controls.Add(btncart2)
-        Controls.Add(btncart1)
-        Controls.Add(Label6)
-        Controls.Add(Label5)
-        Controls.Add(Label4)
-        Controls.Add(Label3)
-        Controls.Add(Label2)
-        Controls.Add(Label1)
-        Controls.Add(labelkit)
-        Controls.Add(PictureBox3)
-        Controls.Add(PictureBox2)
-        Controls.Add(PictureBox1)
-        Controls.Add(labelpb)
-        Controls.Add(picpb)
+        ClientSize = New Size(850, 1046)
+        Controls.Add(Panel1)
+        Margin = New Padding(4)
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "Form2"
+        ShowIcon = False
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"
-        CType(picpb, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(picpb, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
-    Friend WithEvents picpb As PictureBox
-    Friend WithEvents labelpb As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents labelkit As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents btncart1 As Button
-    Friend WithEvents btncart2 As Button
-    Friend WithEvents btncart3 As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Labelkb As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label7 As Label
+    Friend WithEvents btncart3 As Button
+    Friend WithEvents btncart2 As Button
+    Friend WithEvents btncart1 As Button
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents labelkit As Label
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents labelpb As Label
+    Friend WithEvents picpb As PictureBox
 End Class

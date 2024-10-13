@@ -16,33 +16,34 @@ Public Class Form1
     End Sub
 
     Public Sub picpb_Click(sender As Object, e As EventArgs) Handles picpb.Click
-        form2.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        form2.ControlBox = False
-        switchpanel(form2)
-    End Sub
+        'form2.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        ' Form2.ControlBox = False
+        'switchpanel(form2)
+        'Sub switchpanel(ByVal panel As Form)
+        '   Panel1.Controls.Clear()
+        '  panel.TopLevel = False
+        ' Panel1.Controls.Add(panel)
+        'panel.Visible = True
+        'End Sub
 
-    Sub switchpanel(ByVal panel As Form)
-        Panel1.Controls.Clear()
-        panel.TopLevel = False
-        Panel1.Controls.Add(panel)
-        panel.Visible = True
+
+        Dim form2 As New Form2(Me) ' Pass the instance of Form1 to Form2
+        form2.Show()
+        Me.Hide() ' Hide Form1 while Form2 is open
     End Sub
 
     Private Sub pickit_Click(sender As Object, e As EventArgs) Handles pickit.Click
-        Form3.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Form3.ControlBox = False
-        switchpanel(Form3)
+        Dim form3 As New Form3(Me)
+        form3.Show()
+        Me.Hide()
     End Sub
 
     Private Sub picswitch_Click(sender As Object, e As EventArgs) Handles picswitch.Click
-        Form4.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Form4.ControlBox = False
-        switchpanel(Form4)
+
     End Sub
 
     Private Sub piccap_Click(sender As Object, e As EventArgs) Handles piccap.Click
-        Form5.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Form5.ControlBox = False
-        switchpanel(Form5)
+
     End Sub
+
 End Class
