@@ -39,6 +39,7 @@ Partial Class Form3
         PictureBox2 = New PictureBox()
         PictureBox1 = New PictureBox()
         Button1 = New Button()
+        labelkit2 = New Label()
         CType(pickit, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -52,12 +53,12 @@ Partial Class Form3
         labelkit.FlatStyle = FlatStyle.Flat
         labelkit.Font = New Font("Montserrat", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         labelkit.ForeColor = Color.White
-        labelkit.Location = New Point(15, 35)
+        labelkit.Location = New Point(123, 43)
         labelkit.Margin = New Padding(4, 0, 4, 0)
         labelkit.Name = "labelkit"
-        labelkit.Size = New Size(564, 99)
+        labelkit.Size = New Size(469, 99)
         labelkit.TabIndex = 5
-        labelkit.Text = "Keyboard Kits"
+        labelkit.Text = "yboard Kits"
         ' 
         ' pickit
         ' 
@@ -249,12 +250,27 @@ Partial Class Form3
         Button1.Text = "Back"
         Button1.UseVisualStyleBackColor = False
         ' 
+        ' labelkit2
+        ' 
+        labelkit2.AutoSize = True
+        labelkit2.BackColor = Color.Transparent
+        labelkit2.FlatStyle = FlatStyle.Flat
+        labelkit2.Font = New Font("Montserrat", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        labelkit2.ForeColor = Color.Black
+        labelkit2.Location = New Point(13, 43)
+        labelkit2.Margin = New Padding(4, 0, 4, 0)
+        labelkit2.Name = "labelkit2"
+        labelkit2.Size = New Size(138, 99)
+        labelkit2.TabIndex = 35
+        labelkit2.Text = "Ke"
+        ' 
         ' Form3
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FloralWhite
         ClientSize = New Size(850, 1046)
+        Controls.Add(labelkit2)
         Controls.Add(Button1)
         Controls.Add(btncart3)
         Controls.Add(btncart2)
@@ -271,13 +287,13 @@ Partial Class Form3
         Controls.Add(PictureBox1)
         Controls.Add(labelkit)
         Controls.Add(pickit)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(4)
         MaximizeBox = False
         MinimizeBox = False
         Name = "Form3"
-        ShowIcon = False
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Form3"
+        Text = "Kits"
         CType(pickit, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
@@ -302,4 +318,5 @@ Partial Class Form3
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents labelkit2 As Label
 End Class

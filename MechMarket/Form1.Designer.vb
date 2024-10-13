@@ -233,13 +233,13 @@ Partial Class Form1
         BackColor = Color.FloralWhite
         ClientSize = New Size(850, 1046)
         Controls.Add(Panel1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(4)
         MaximizeBox = False
         MinimizeBox = False
         Name = "Form1"
-        ShowIcon = False
         StartPosition = FormStartPosition.CenterScreen
-        Text = "The MechMarket"
+        Text = "Homepage"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(piccap, ComponentModel.ISupportInitialize).EndInit()

@@ -69,6 +69,7 @@ Partial Class Form2
         Panel1.Controls.Add(picpb)
         Panel1.Dock = DockStyle.Fill
         Panel1.Location = New Point(0, 0)
+        Panel1.Margin = New Padding(2)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(850, 1046)
         Panel1.TabIndex = 0
@@ -80,7 +81,7 @@ Partial Class Form2
         Labelkb.FlatStyle = FlatStyle.Flat
         Labelkb.Font = New Font("Montserrat", 28.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Labelkb.ForeColor = Color.White
-        Labelkb.Location = New Point(14, 93)
+        Labelkb.Location = New Point(14, 92)
         Labelkb.Margin = New Padding(4, 0, 4, 0)
         Labelkb.Name = "Labelkb"
         Labelkb.Size = New Size(346, 78)
@@ -94,7 +95,7 @@ Partial Class Form2
         Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Montserrat Medium", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.White
-        Button1.Location = New Point(717, 109)
+        Button1.Location = New Point(718, 109)
         Button1.Margin = New Padding(4)
         Button1.Name = "Button1"
         Button1.Size = New Size(118, 79)
@@ -124,7 +125,7 @@ Partial Class Form2
         btncart2.FlatStyle = FlatStyle.Flat
         btncart2.Font = New Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btncart2.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        btncart2.Location = New Point(570, 667)
+        btncart2.Location = New Point(570, 668)
         btncart2.Margin = New Padding(4)
         btncart2.Name = "btncart2"
         btncart2.Size = New Size(188, 52)
@@ -176,7 +177,7 @@ Partial Class Form2
         Label4.AutoSize = True
         Label4.Font = New Font("Montserrat", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        Label4.Location = New Point(478, 323)
+        Label4.Location = New Point(478, 322)
         Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
         Label4.Size = New Size(121, 39)
@@ -189,7 +190,7 @@ Partial Class Form2
         Label3.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         Label3.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.White
-        Label3.Location = New Point(478, 777)
+        Label3.Location = New Point(478, 778)
         Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
         Label3.Size = New Size(146, 46)
@@ -237,7 +238,7 @@ Partial Class Form2
         ' PictureBox3
         ' 
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(58, 777)
+        PictureBox3.Location = New Point(58, 778)
         PictureBox3.Margin = New Padding(4)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(375, 201)
@@ -297,13 +298,13 @@ Partial Class Form2
         BackColor = Color.FloralWhite
         ClientSize = New Size(850, 1046)
         Controls.Add(Panel1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(4)
         MaximizeBox = False
         MinimizeBox = False
         Name = "Form2"
-        ShowIcon = False
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Form2"
+        Text = "Prebuilts"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
