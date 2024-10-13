@@ -62,4 +62,23 @@
         Me.Close()
     End Sub
 
+    Public Sub btnclear_Click(sender As Object, e As EventArgs) Handles btnclear.Click
+        labelshow1.Text = ""
+        labelshow2.Text = ""
+        labelshow3.Text = ""
+        labelshow4.Text = ""
+        labeltotal.Text = ""
+    End Sub
+
+    Private Sub btncheckout_Click(sender As Object, e As EventArgs) Handles btncheckout.Click
+        Dim checkresult As DialogResult = MessageBox.Show("Thank you for your purchase", "OwO", MessageBoxButtons.OK)
+        If DialogResult.OK Then
+
+            btnclear_Click(sender, e)
+
+            Form1.Show()
+            Me.Close()
+
+        End If
+    End Sub
 End Class
