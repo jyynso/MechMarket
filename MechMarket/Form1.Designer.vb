@@ -86,7 +86,7 @@ Partial Class Form1
         labelcap.AutoSize = True
         labelcap.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelcap.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelcap.Location = New Point(614, 788)
+        labelcap.Location = New Point(617, 814)
         labelcap.Margin = New Padding(4, 0, 4, 0)
         labelcap.Name = "labelcap"
         labelcap.Size = New Size(167, 46)
@@ -98,7 +98,7 @@ Partial Class Form1
         labelswitch.AutoSize = True
         labelswitch.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelswitch.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelswitch.Location = New Point(184, 788)
+        labelswitch.Location = New Point(176, 814)
         labelswitch.Margin = New Padding(4, 0, 4, 0)
         labelswitch.Name = "labelswitch"
         labelswitch.Size = New Size(178, 46)
@@ -110,7 +110,7 @@ Partial Class Form1
         labelkit.AutoSize = True
         labelkit.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelkit.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelkit.Location = New Point(711, 494)
+        labelkit.Location = New Point(714, 534)
         labelkit.Margin = New Padding(4, 0, 4, 0)
         labelkit.Name = "labelkit"
         labelkit.Size = New Size(70, 46)
@@ -122,7 +122,7 @@ Partial Class Form1
         labelpb.AutoSize = True
         labelpb.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         labelpb.Font = New Font("Montserrat Medium", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        labelpb.Location = New Point(201, 494)
+        labelpb.Location = New Point(192, 534)
         labelpb.Margin = New Padding(4, 0, 4, 0)
         labelpb.Name = "labelpb"
         labelpb.Size = New Size(162, 46)
@@ -133,10 +133,10 @@ Partial Class Form1
         ' 
         piccap.BackgroundImage = CType(resources.GetObject("piccap.BackgroundImage"), Image)
         piccap.Image = CType(resources.GetObject("piccap.Image"), Image)
-        piccap.Location = New Point(465, 771)
+        piccap.Location = New Point(471, 793)
         piccap.Margin = New Padding(4)
         piccap.Name = "piccap"
-        piccap.Size = New Size(341, 236)
+        piccap.Size = New Size(333, 224)
         piccap.SizeMode = PictureBoxSizeMode.CenterImage
         piccap.TabIndex = 8
         piccap.TabStop = False
@@ -145,10 +145,10 @@ Partial Class Form1
         ' 
         picswitch.BackgroundImage = CType(resources.GetObject("picswitch.BackgroundImage"), Image)
         picswitch.Image = CType(resources.GetObject("picswitch.Image"), Image)
-        picswitch.Location = New Point(48, 771)
+        picswitch.Location = New Point(47, 793)
         picswitch.Margin = New Padding(4)
         picswitch.Name = "picswitch"
-        picswitch.Size = New Size(341, 236)
+        picswitch.Size = New Size(333, 224)
         picswitch.SizeMode = PictureBoxSizeMode.CenterImage
         picswitch.TabIndex = 7
         picswitch.TabStop = False
@@ -157,10 +157,10 @@ Partial Class Form1
         ' 
         pickit.BackgroundImage = CType(resources.GetObject("pickit.BackgroundImage"), Image)
         pickit.Image = CType(resources.GetObject("pickit.Image"), Image)
-        pickit.Location = New Point(465, 479)
+        pickit.Location = New Point(471, 514)
         pickit.Margin = New Padding(4)
         pickit.Name = "pickit"
-        pickit.Size = New Size(341, 236)
+        pickit.Size = New Size(333, 224)
         pickit.SizeMode = PictureBoxSizeMode.StretchImage
         pickit.TabIndex = 6
         pickit.TabStop = False
@@ -168,10 +168,10 @@ Partial Class Form1
         ' picpb
         ' 
         picpb.BackgroundImage = CType(resources.GetObject("picpb.BackgroundImage"), Image)
-        picpb.Location = New Point(48, 479)
+        picpb.Location = New Point(47, 514)
         picpb.Margin = New Padding(4)
         picpb.Name = "picpb"
-        picpb.Size = New Size(341, 236)
+        picpb.Size = New Size(333, 224)
         picpb.SizeMode = PictureBoxSizeMode.CenterImage
         picpb.TabIndex = 5
         picpb.TabStop = False
@@ -181,7 +181,7 @@ Partial Class Form1
         Label1.AutoSize = True
         Label1.Font = New Font("Montserrat Medium", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(48, 408)
+        Label1.Location = New Point(22, 444)
         Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(168, 50)
@@ -194,7 +194,7 @@ Partial Class Form1
         label01.BackColor = Color.Transparent
         label01.Font = New Font("Montserrat", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         label01.ForeColor = Color.White
-        label01.Location = New Point(30, 178)
+        label01.Location = New Point(47, 172)
         label01.Margin = New Padding(4, 0, 4, 0)
         label01.Name = "label01"
         label01.Size = New Size(707, 39)
@@ -206,9 +206,9 @@ Partial Class Form1
         labeltitle.AutoSize = True
         labeltitle.BackColor = Color.Transparent
         labeltitle.FlatStyle = FlatStyle.Flat
-        labeltitle.Font = New Font("Montserrat", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        labeltitle.Font = New Font("Montserrat", 47.9999962F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         labeltitle.ForeColor = Color.White
-        labeltitle.Location = New Point(4, 39)
+        labeltitle.Location = New Point(22, 27)
         labeltitle.Margin = New Padding(4, 0, 4, 0)
         labeltitle.Name = "labeltitle"
         labeltitle.Size = New Size(687, 132)
@@ -221,7 +221,7 @@ Partial Class Form1
         picboxtitle.Location = New Point(0, 0)
         picboxtitle.Margin = New Padding(4)
         picboxtitle.Name = "picboxtitle"
-        picboxtitle.Size = New Size(849, 389)
+        picboxtitle.Size = New Size(850, 420)
         picboxtitle.SizeMode = PictureBoxSizeMode.CenterImage
         picboxtitle.TabIndex = 0
         picboxtitle.TabStop = False
