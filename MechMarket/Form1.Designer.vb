@@ -211,9 +211,9 @@ Partial Class Form1
         labeltitle.Location = New Point(22, 27)
         labeltitle.Margin = New Padding(4, 0, 4, 0)
         labeltitle.Name = "labeltitle"
-        labeltitle.Size = New Size(687, 132)
+        labeltitle.Size = New Size(577, 132)
         labeltitle.TabIndex = 2
-        labeltitle.Text = "MechMarket"
+        labeltitle.Text = "KeihoType"
         ' 
         ' picboxtitle
         ' 

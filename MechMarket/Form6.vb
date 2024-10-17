@@ -1,10 +1,12 @@
 ﻿Public Class Form6
 
-    Private Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Dim total As Integer = 0
+
+    Public Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         labelitm.Location = New Point(labelitm.Left - picmumei.Left, labelitm.Top - picmumei.Top)
         labelitm.Parent = picmumei
 
-        Dim total As Integer = 0
+        total = 0
 
         Select Case triggerkeeb
             Case "1"
@@ -71,14 +73,24 @@
     End Sub
 
     Private Sub btncheckout_Click(sender As Object, e As EventArgs) Handles btncheckout.Click
-        Dim checkresult As DialogResult = MessageBox.Show("Thank you for your purchase", "OwO", MessageBoxButtons.OK)
-        If DialogResult.OK Then
+        Dim payment As Double
+        Dim change As Double
 
-            btnclear_Click(sender, e)
+        payment = InputBox("Enter your payment", "OwO")
+        change = payment - total
 
+        If payment >= total Then
+            MessageBox.Show("Thank your for your Purchase", "OwO")
+            MessageBox.Show("Your change is " + CStr(change), "OwO", MessageBoxButtons.OK)
+            labelshow1.Text = ""
+            labelshow2.Text = ""
+            labelshow3.Text = ""
+            labelshow4.Text = ""
+            labeltotal.Text = ""
             Form1.Show()
             Me.Close()
-
+        Else
+            MessageBox.Show("Insufficient Payment, please try again", "OwO")
         End If
     End Sub
 End Class
