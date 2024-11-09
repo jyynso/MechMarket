@@ -82,15 +82,18 @@
         If payment >= total Then
             MessageBox.Show("Thank your for your Purchase", "OwO")
             MessageBox.Show("Your change is " + CStr(change), "OwO", MessageBoxButtons.OK)
-            labelshow1.Text = ""
-            labelshow2.Text = ""
-            labelshow3.Text = ""
-            labelshow4.Text = ""
-            labeltotal.Text = ""
             Form1.Show()
             Me.Close()
+            triggerkeeb = "0"
+            triggercap = "0"
+            triggerkit = "0"
+            triggerswitch = "0"
+
+
         Else
             MessageBox.Show("Insufficient Payment, please try again", "OwO")
         End If
+
+
     End Sub
 End Class
